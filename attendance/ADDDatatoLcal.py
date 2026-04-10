@@ -1,3 +1,10 @@
+"""
+FILE OVERVIEW:
+- attendance\ADDDatatoLcal.py
+- Attendance module file: face attendance workflow me encoding, detection ya data save ka kaam karta hai.
+- Is file ko top se bottom tak padhen to processing flow clear ho jayega.
+"""
+
 import mysql.connector
 
 # 1. Database se connection banayein
@@ -15,9 +22,9 @@ try:
     
     # 3. Students ka data (Aap ise badal sakte hain)
     data = [
-        ("321654", "Murtaza Hassan", "Robotics", 2017, 7, "G", 4),
-        ("852741", "Emily Blunt", "Economics", 2021, 12, "B", 1),
-        ("963852", "Elon Musk", "Physics", 2020, 7, "G", 2)
+        ("321654", "parveen", "Robotics", 2017, 7, "G", 4),
+        ("852741", "raj", "Economics", 2021, 12, "B", 1),
+        ("963852", "vivek", "Physics", 2020, 7, "G", 2)
     ]
 
     # 4. Data insert karein
@@ -33,3 +40,5 @@ finally:
     if db.is_connected():
         cursor.close()
         db.close()
+
+

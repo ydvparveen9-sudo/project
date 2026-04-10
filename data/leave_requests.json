@@ -1,0 +1,18 @@
+[
+    {
+        "request_id": "LV-1001",
+        "student_name": "parveen",
+        "student_email": "ydvparveen9@gmail.com",
+        "reason": "hlooo",
+        "leave_from": "2026-04-09",
+        "leave_to": "2026-04-11",
+        "emergency_contact": "2345678987",
+        "emergency_override_requested": false,
+        "override_used": false,
+        "override_note": "",
+        "status": "Approved",
+        "admin_note": "",
+        "created_at": "2026-04-08T09:40:10+02:00",
+        "updated_at": "2026-04-08T09:40:23+02:00"
+    }
+]

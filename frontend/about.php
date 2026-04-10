@@ -1,27 +1,48 @@
+<!--
+FILE OVERVIEW:
+- frontend\about.php
+- Frontend page file: UI render karta hai aur required hone par backend se aayi dynamic values display karta hai.
+- Dynamic blocks yahan PHP tags ke through inject hote hain.
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About - Hostel Management</title>
+    <!-- Ready design + icons -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    
     <style>
         * { font-family: 'poppins'; }
-        .custom-bg { background-color: #2ec; }
+        /* button and col */
+        .custom-bg { background-color: rgb(153, 238, 34); }
+
+
+        
+     /* Image + dark overlay Text clear dikhe */
+
+
         .page-banner {
             background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
                         url('https://www.lpu.in/lpu-assets/images/residence/residential.jpg') center/cover no-repeat;
             height: 220px;
             display: flex; align-items: center;
         }
+           
+
+        /* Numbers bade aur attractive */
         .stat-number { font-size: 2.5rem; font-weight: 700; color: #2ec; }
         .team-img { width: 100px; height: 100px; object-fit: cover; border-radius: 50%; border: 3px solid #2ec; }
     </style>
+
+
 </head>
 <body class="bg-light">
 
-<?php require('inc/header.php') ?>
+<?php require('header.php') ?>
 
 <!-- Page Banner -->
 <div class="page-banner text-white text-center">
@@ -117,7 +138,7 @@
                 <i class="bi bi-check-circle-fill text-success fs-4 mt-1"></i>
                 <div>
                     <h6 class="fw-bold mb-1">High-Speed Internet</h6>
-                    <p class="text-muted small mb-0">24×7 Wi-Fi connectivity to support academic and personal needs.</p>
+                    <p class="text-muted small mb-0">24ÃƒÆ’Ã¢â‚¬â€7 Wi-Fi connectivity to support academic and personal needs.</p>
                 </div>
             </div>
         </div>
@@ -152,9 +173,11 @@
 
 </div>
 
-<!-- Footer -->
-<h5 class="text-center bg-dark text-white p-3 m-0">Design and Developed BY Parveen &amp; RAJ</h5>
+<?php require_once __DIR__ . '/footer.php'; ?>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
+
+

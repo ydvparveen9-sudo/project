@@ -1,0 +1,207 @@
+[
+    {
+        "id": "RM-1001",
+        "name": "Single Seater",
+        "room_type": "Single",
+        "price_per_term": 65000,
+        "is_available": true,
+        "image_url": "https://www.lpu.in/lpu-assets/images/residence/residential.jpg",
+        "total_beds": 1,
+        "beds": [
+            {
+                "bed_id": "B1",
+                "status": "available",
+                "assigned_student_email": "",
+                "booking_id": "",
+                "last_updated": "2026-03-27T14:47:44+01:00"
+            }
+        ],
+        "available_beds": 1
+    },
+    {
+        "id": "RM-1002",
+        "name": "Double Seater",
+        "room_type": "Double",
+        "price_per_term": 40000,
+        "is_available": true,
+        "image_url": "https://www.lpu.in/lpu-assets/images/about-lpu/infrastructure/large/girls-hostel-room.webp",
+        "total_beds": 2,
+        "beds": [
+            {
+                "bed_id": "B1",
+                "status": "available",
+                "assigned_student_email": "",
+                "booking_id": "",
+                "last_updated": "2026-03-27T18:07:54+01:00"
+            },
+            {
+                "bed_id": "B2",
+                "status": "available",
+                "assigned_student_email": "",
+                "booking_id": "",
+                "last_updated": "2026-03-27T18:07:51+01:00"
+            }
+        ],
+        "available_beds": 2
+    },
+    {
+        "id": "RM-1003",
+        "name": "Triple Seater",
+        "room_type": "Triple",
+        "price_per_term": 36000,
+        "is_available": true,
+        "image_url": "https://www.lpu.in/lpu-assets/images/residence/apartments.jpg",
+        "total_beds": 5,
+        "beds": [
+            {
+                "bed_id": "B1",
+                "status": "available",
+                "assigned_student_email": "",
+                "booking_id": "",
+                "last_updated": "2026-03-27T15:40:00+01:00"
+            },
+            {
+                "bed_id": "B2",
+                "status": "available",
+                "assigned_student_email": "",
+                "booking_id": "",
+                "last_updated": "2026-03-27T15:40:00+01:00"
+            },
+            {
+                "bed_id": "B3",
+                "status": "available",
+                "assigned_student_email": "",
+                "booking_id": "",
+                "last_updated": "2026-03-27T15:40:00+01:00"
+            },
+            {
+                "bed_id": "B4",
+                "status": "available",
+                "assigned_student_email": "",
+                "booking_id": "",
+                "last_updated": "2026-03-27T15:40:00+01:00"
+            },
+            {
+                "bed_id": "B5",
+                "status": "available",
+                "assigned_student_email": "",
+                "booking_id": "",
+                "last_updated": "2026-03-27T15:40:00+01:00"
+            }
+        ],
+        "available_beds": 5
+    },
+    {
+        "id": "RM-1004",
+        "name": "Quad Seater",
+        "room_type": "Quad",
+        "price_per_term": 32000,
+        "is_available": true,
+        "image_url": "https://www.lpu.in/lpu-assets/images/residence/residential.jpg",
+        "total_beds": 6,
+        "beds": [
+            {
+                "bed_id": "B1",
+                "status": "available",
+                "assigned_student_email": "",
+                "booking_id": "",
+                "last_updated": "2026-03-27T15:40:00+01:00"
+            },
+            {
+                "bed_id": "B2",
+                "status": "available",
+                "assigned_student_email": "",
+                "booking_id": "",
+                "last_updated": "2026-03-27T15:40:00+01:00"
+            },
+            {
+                "bed_id": "B3",
+                "status": "available",
+                "assigned_student_email": "",
+                "booking_id": "",
+                "last_updated": "2026-03-27T15:40:00+01:00"
+            },
+            {
+                "bed_id": "B4",
+                "status": "available",
+                "assigned_student_email": "",
+                "booking_id": "",
+                "last_updated": "2026-03-27T15:40:00+01:00"
+            },
+            {
+                "bed_id": "B5",
+                "status": "available",
+                "assigned_student_email": "",
+                "booking_id": "",
+                "last_updated": "2026-03-27T15:40:00+01:00"
+            },
+            {
+                "bed_id": "B6",
+                "status": "available",
+                "assigned_student_email": "",
+                "booking_id": "",
+                "last_updated": "2026-03-27T15:40:00+01:00"
+            }
+        ],
+        "available_beds": 6
+    },
+    {
+        "id": "RM-1005",
+        "name": "Premium Double",
+        "room_type": "Double",
+        "price_per_term": 48000,
+        "is_available": true,
+        "image_url": "https://www.lpu.in/lpu-assets/images/about-lpu/infrastructure/large/girls-hostel-room.webp",
+        "total_beds": 4,
+        "beds": [
+            {
+                "bed_id": "B1",
+                "status": "available",
+                "assigned_student_email": "",
+                "booking_id": "",
+                "last_updated": "2026-03-27T15:40:00+01:00"
+            },
+            {
+                "bed_id": "B2",
+                "status": "available",
+                "assigned_student_email": "",
+                "booking_id": "",
+                "last_updated": "2026-03-27T15:40:00+01:00"
+            },
+            {
+                "bed_id": "B3",
+                "status": "available",
+                "assigned_student_email": "",
+                "booking_id": "",
+                "last_updated": "2026-03-27T15:40:00+01:00"
+            },
+            {
+                "bed_id": "B4",
+                "status": "available",
+                "assigned_student_email": "",
+                "booking_id": "",
+                "last_updated": "2026-03-27T15:40:00+01:00"
+            }
+        ],
+        "available_beds": 4
+    },
+    {
+        "id": "RM-1006",
+        "name": "Deluxe Single",
+        "room_type": "Single",
+        "price_per_term": 70000,
+        "is_available": true,
+        "image_url": "https://www.lpu.in/lpu-assets/images/residence/residential.jpg",
+        "total_beds": 1,
+        "beds": [
+            {
+                "bed_id": "B1",
+                "status": "available",
+                "assigned_student_email": "",
+                "booking_id": "",
+                "last_updated": "2026-03-27T15:40:00+01:00"
+            }
+        ],
+        "available_beds": 1
+    }
+]

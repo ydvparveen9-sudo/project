@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "Admin User",
+    "email": "admin@hostel.local",
+    "password_hash": "$2y$10$JZof.AxC4ygpFiCnu3/SaOBUt/K3AUU3Wo0QK1q7G1qKgW5ftPdhW",
+    "role": "admin"
+  },
+  {
+    "id": 2,
+    "name": "Student User",
+    "email": "student@hostel.local",
+    "password_hash": "$2y$10$FDUb8W.DC9rv0bxSk9qaWuAnSIpqSmOG6mXO7BTnK8ZqLAM3Wd/9G",
+    "role": "student"
+  }
+]

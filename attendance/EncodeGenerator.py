@@ -1,3 +1,10 @@
+"""
+FILE OVERVIEW:
+- attendance\EncodeGenerator.py
+- Attendance module file: face attendance workflow me encoding, detection ya data save ka kaam karta hai.
+- Is file ko top se bottom tak padhen to processing flow clear ho jayega.
+"""
+
 import cv2
 import face_recognition
 import pickle
@@ -45,3 +52,5 @@ file = open("EncodeFile.p", 'wb')
 pickle.dump(encodeListKnownWithIds, file)
 file.close()
 print("File Saved as EncodeFile.p")
+
+
